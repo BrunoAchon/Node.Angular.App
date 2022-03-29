@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta bic preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "notebook mak pro",
+      "price": 1202.43
+    },
+    {
+      "id": 3,
+      "name": "geladeira grande",
+      "price": "1913.99"
+    }
+  ]
+}
