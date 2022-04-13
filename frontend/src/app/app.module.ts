@@ -10,6 +10,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component'
 import { ProductComponent } from './views/product/product.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
@@ -30,7 +31,8 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     ProductComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
