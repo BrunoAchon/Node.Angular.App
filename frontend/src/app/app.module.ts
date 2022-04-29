@@ -16,7 +16,8 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 
@@ -40,6 +41,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatButtonModule,
     MatListModule,
     MatCardModule
   ],
